@@ -1,0 +1,40 @@
+@media (max-width: 500px) {
+  .navBar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    margin-right: 0px;
+  }
+  .image {
+    display: none;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+    height: 80vh;
+    background: url(/pexels.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .context {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .context p {
+    color: black;
+  }
+}
+@media (max-width: 400px) {
+  .navText {
+    width: 100%;
+    align-items: center;
+  }
+  .navBar h1 {
+    margin: 0px;
+  }
+}

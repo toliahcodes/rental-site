@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.container {
+  margin: 10px;
+  text-align: center;
+}
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navText {
+  display: flex;
+  justify-content: center;
+}
+.navBar ul {
+  display: flex;
+}
+.navBar h1 {
+  font-size: 20px;
+  margin: 10px 50px;
+}
+.list li {
+  margin: 10px 20px;
+  color: gray;
+}
+.list li:hover {
+  color: black;
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  gap: 20px;
+}
+.button button {
+  padding: 10px 40px;
+  border-radius: 50px;
+  border: none;
+}
+
+.button button:hover {
+  color: white;
+  background: black;
+}
+.content {
+  display: flex;
+  padding: 20px 50px;
+}
+.context {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 40px;
+}
+.context button {
+  color: black;
+  width: 20%;
+  border-radius: 50px;
+  padding: 10px 0px;
+  border: none;
+}
+.context button:hover {
+  background: black;
+  color: white;
+}
+.context h1 {
+  font-size: 70px;
+}
+.context p {
+  font-size: 20px;
+  color: gray;
+}
+.image {
+  display: flex;
+  width: 50%;
+}
+.image img {
+  width: 90%;
+  height: 90vh;
+  border-radius: 30px;
+  margin-left: 1rem;
+}
